@@ -7,9 +7,7 @@
 % More examples: https://github.com/vasanza/Matlab_Code
 % Read more: https://vasanza.blogspot.com/
 function [filenames] = FindCSV(path)
-
-% https://vasanza.blogspot.com
-filenames = dir(fullfile(path ,'*.csv'));
-[~, reindex] = sort( str2double( regexp( {filenames.name}, '\d+', 'match', 'once' )));
-filenames = filenames(reindex);
+    filenames = dir(fullfile(path ,'*.csv'));
+    [~, reindex] = sort( str2double( regexp( {filenames.name}, '\d+', 'match', 'once' )));
+    filenames = filenames(reindex);
 end

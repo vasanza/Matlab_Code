@@ -11,7 +11,7 @@ function [folders] = FindFolders(path)
     dirFlags = [files.isdir];
     folders = files(dirFlags);
     folders = folders(~ismember({folders.name},{'.','..','logfiles'}));
-
+end
 %How to use function with FindMAT or FindCSV
 %path = fullfile('./Data/');
 %folderNames=FindFolders(path)
