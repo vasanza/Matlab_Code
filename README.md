@@ -5,7 +5,7 @@
 - https://dx.doi.org/10.21227/bhpj-mz94
 # CLONE
 - git status
-- git clone https://github.com/vasanza/Matlab.git
+- git clone https://github.com/vasanza/Matlab_Code.git
 # SWITCHED TO BRANCH
 - git branch
 - git checkout NameBranch
