@@ -1,9 +1,9 @@
 % Bar graph root mean square error (RMSE), mean square error (MSE) and R squared
 % input: yest, y youtput
 % return: rmse,mse, r2
-% https://vasanza.blogspot.com/
+% More examples: https://github.com/vasanza/Matlab_Code
+% Read more: https://vasanza.blogspot.com/
 function [rmse,mse,r2] = fBar_RmseMseR2(yest,youtput)
-
 %rmse = sqrt(mean((output - yest).^2));
 rmse = sqrt(immse(yest, youtput));
 %mse = mean((output - yest).^2);
