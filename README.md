@@ -2,6 +2,7 @@
 - The main code in the project folder
 - The data in a subfolder called "Data"
 - Put these functions in a subfolder called "src"
+- Use in main code: addpath(genpath('./src'))%functions folders
 
 # Related work
 - https://dx.doi.org/10.21227/mdfs-ya42
