@@ -1,3 +1,9 @@
+# Classification Learner
+![Classification](https://user-images.githubusercontent.com/12642226/126782394-ecb99406-0aa0-456a-b587-7d0cdfb307e3.PNG)
+
+# Regression Learner
+![Prediction](https://user-images.githubusercontent.com/12642226/126782409-61d89edc-8d65-4d6c-bec0-19a6aaef8539.PNG)
+
 # To work better it is recommended:
 - The main code in the project folder
 - The data in a subfolder called "Data"
