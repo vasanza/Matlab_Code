@@ -1,15 +1,17 @@
 # Classification Learner
 ![Classification](https://user-images.githubusercontent.com/12642226/126782394-ecb99406-0aa0-456a-b587-7d0cdfb307e3.PNG)
-
 # Regression Learner
 ![Prediction](https://user-images.githubusercontent.com/12642226/126782409-61d89edc-8d65-4d6c-bec0-19a6aaef8539.PNG)
-
 # To work better it is recommended:
 - The main code in the project folder
 - The data in a subfolder called "Data"
 - Put these functions in a subfolder called "src"
 - Use in main code: addpath(genpath('./src'))%functions folders
-
+# Related Papers (Classification)
+- https://ieeexplore.ieee.org/document/9096752
+- https://ieeexplore.ieee.org/abstract/document/8580270
+# Related Papers (Regression)
+- https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17
 # Related work
 - https://dx.doi.org/10.21227/mdfs-ya42
 - https://dx.doi.org/10.21227/0j42-qd38
