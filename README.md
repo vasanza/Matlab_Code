@@ -7,11 +7,14 @@
 - The data in a subfolder called "Data"
 - Put these functions in a subfolder called "src"
 - Use in main code: addpath(genpath('./src'))%functions folders
-# Related Papers (Classification)
+# Related Work (Classification)
 - https://ieeexplore.ieee.org/document/9096752
 - https://ieeexplore.ieee.org/abstract/document/8580270
-# Related Papers (Regression)
+- https://vasanza.blogspot.com/2020/01/alphabet-letters-recognition-with.html
+- https://vasanza.blogspot.com/2020/01/eeg-signal-classification-with-machine.html
+# Related Work (Regression)
 - https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17
+- https://vasanza.blogspot.com/2020/01/epileptic-seizure-prediction-with_72.html
 # Datasets
 - https://dx.doi.org/10.21227/mdfs-ya42
 - https://dx.doi.org/10.21227/0j42-qd38
