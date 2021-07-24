@@ -1,3 +1,5 @@
+![PrimerosResultados](https://user-images.githubusercontent.com/12642226/126882910-2b2d8035-7f48-4cb0-8a89-82620e686328.PNG)
+
 # To work better it is recommended:
 - The main code in the project folder
 - The data in a subfolder called "Data"
