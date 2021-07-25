@@ -1,5 +1,6 @@
 # Files
 *.data
+data/*.mat
 # Folders
-data
+#data/*.mat
 Meetings
