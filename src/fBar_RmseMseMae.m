@@ -13,7 +13,7 @@ function [rmse,mse,mae] = fBar_RmseMseMae(yest,youtput)
     %dmser=mean(sqrt((yest-youtput).^2)./youtput);
 
     c = categorical({'MAE','MSE','RMSE'});
-    values = [rmse mse mae];
+    values = [rmse mse mae]
     figure;
     b=bar(c,values);
 
