@@ -1,10 +1,8 @@
-# ⭐⭐⭐⭐⭐ MATLAB Code
+# ⭐⭐⭐⭐⭐ Electrical Systems Simulation
 - ➡️ #Matlab #mat #ClassificationLearner #Classification #RegressionLearner #Regression
 
-# Classification Learner
-![Classification](https://user-images.githubusercontent.com/12642226/126782394-ecb99406-0aa0-456a-b587-7d0cdfb307e3.PNG)
 # Regression Learner
-![Prediction](https://user-images.githubusercontent.com/12642226/126782409-61d89edc-8d65-4d6c-bec0-19a6aaef8539.PNG)
+![image](https://user-images.githubusercontent.com/12642226/141505530-d651c4d2-35c9-481c-8d23-6ec510c8e2eb.png)
 
 # To work better it is recommended:
 - The main code in the project folder
@@ -22,11 +20,7 @@
 - https://vasanza.blogspot.com/2020/01/epileptic-seizure-prediction-with_72.html
 
 # Datasets
-- https://dx.doi.org/10.21227/mdfs-ya42
-- https://dx.doi.org/10.21227/0j42-qd38
-- https://dx.doi.org/10.21227/x6jw-m015
-- https://dx.doi.org/10.21227/8cty-6069
-- https://dx.doi.org/10.21227/bhpj-mz94
+- https://ieee-dataport.org/open-access/data-server-energy-consumption-dtaset
 
 # CLONE
 - git status
