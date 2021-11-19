@@ -2,14 +2,13 @@
 - ➡️ #Matlab #mat #ClassificationLearner #Classification #RegressionLearner #Regression
 
 # Acquisition of data on electrical parameters
-# Simulink data visualization
-# Modeling of electrical parameters
-
-# Regression Learner
-![image](https://user-images.githubusercontent.com/12642226/141505530-d651c4d2-35c9-481c-8d23-6ec510c8e2eb.png)
-![Figura4](https://user-images.githubusercontent.com/12642226/142685774-732943a0-1901-414d-8fb2-05d172d167d7.JPG)
 ![Grafica1](https://user-images.githubusercontent.com/12642226/142685776-a03b1378-52cb-4fc6-98dd-860409660ba5.JPG)
+
+# Simulink data visualization
 ![Figura2](https://user-images.githubusercontent.com/12642226/142685777-017d52ba-bd78-4b6f-8986-7f69cc826955.JPG)
+
+# Modeling of electrical parameters
+![Figura4](https://user-images.githubusercontent.com/12642226/142685774-732943a0-1901-414d-8fb2-05d172d167d7.JPG)
 ![Figura3](https://user-images.githubusercontent.com/12642226/142685780-5f03c799-6765-4024-acdb-282c51084bb5.JPG)
 
 # To work better it is recommended:
