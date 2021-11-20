@@ -12,10 +12,13 @@
 ![Figura3](https://user-images.githubusercontent.com/12642226/142685780-5f03c799-6765-4024-acdb-282c51084bb5.JPG)
 
 # To work better it is recommended:
-- The main code in the project folder
+- The main code in the project folderhttps://2pem100a.blogspot.com/
 - Put dataset in a subfolder called "Data"
 - Put these functions in a subfolder called "src"
 - Use in main code: addpath(genpath('./src'))%functions folders
+
+# Blog
+- https://2pem100a.blogspot.com/
 
 # Related Work (Classification)
 - https://ieeexplore.ieee.org/document/9096752
@@ -27,7 +30,7 @@
 - https://vasanza.blogspot.com/2020/01/epileptic-seizure-prediction-with_72.html
 
 # Datasets
-- https://ieee-dataport.org/open-access/data-server-energy-consumption-dtaset
+- https://ieee-dataport.org/competitions/2-phase-energy-meter-100a-2pem-100a
 
 # CLONE
 - git status
