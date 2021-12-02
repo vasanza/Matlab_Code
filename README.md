@@ -1,6 +1,9 @@
 # ⭐⭐⭐⭐⭐ Electrical Systems Simulation
 - ➡️ #Matlab #mat #ClassificationLearner #Classification #RegressionLearner #Regression
 
+# Licensing information
+![oshw_facts](https://user-images.githubusercontent.com/12642226/144176690-ac462303-54f0-4388-8748-2af13708cb51.jpg)
+
 # Acquisition of data on electrical parameters
 ![Grafica1](https://user-images.githubusercontent.com/12642226/142685776-a03b1378-52cb-4fc6-98dd-860409660ba5.JPG)
 
