@@ -26,3 +26,4 @@ function [rmse,mse,mae] = fBar_RmseMseMae(yest,youtput)
     labels1 = string(b(1).YData);
     text(xtips1,ytips1,labels1,'VerticalAlignment','middle')
 end
+
