@@ -1,6 +1,9 @@
-# ⭐⭐⭐⭐⭐ MATLAB Code
-[![View Functionality Matlab code on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/102774-functionality-matlab-code)
+(https://www.mathworks.com/matlabcentral/fileexchange/102774-functionality-matlab-code)
 - ➡️ #Matlab #mat #ClassificationLearner #Classification #RegressionLearner #Regression
+# ⭐⭐⭐⭐⭐ MATLAB Code
+[![View Functionality Matlab code on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)]
+## When using this resource, please cite the original publication:
+- V. Asanza, R. E. Pico, D. Torres, S. Santillan and J. Cadena, "FPGA Based Meteorological Monitoring Station," 2021 IEEE Sensors Applications Symposium (SAS), 2021, pp. 1-6, doi: 10.1109/SAS51076.2021.9530151.
 
 # Classification Learner
 ![Classification](https://user-images.githubusercontent.com/12642226/126782394-ecb99406-0aa0-456a-b587-7d0cdfb307e3.PNG)
