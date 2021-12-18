@@ -1,4 +1,4 @@
-(https://www.mathworks.com/matlabcentral/fileexchange/102774-functionality-matlab-code)[![View Functionality Matlab code on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)]
+[![View Functionality Matlab code on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://la.mathworks.com/matlabcentral/fileexchange/102774-functionality-matlab-code)
 # ⭐⭐⭐⭐⭐ MATLAB Code
 - ➡️ #Matlab #mat #ClassificationLearner #Classification #RegressionLearner #Regression
 ## When using this resource, please cite the original publication:
