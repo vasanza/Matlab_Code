@@ -24,22 +24,26 @@ These are functions developed in matlab and used in the following applications:
 # Related Work (Classification)
 - **Paper 1:** [Implementation of a Classification System of EEG Signals Based on FPGA
 ](https://ieeexplore.ieee.org/document/9096752).
-- **Paper 2:**[EMG Signal Processing with Clustering Algorithms for motor gesture Tasks
+- **Paper 2:** [EMG Signal Processing with Clustering Algorithms for motor gesture Tasks
 ](https://ieeexplore.ieee.org/abstract/document/8580270).
 - https://vasanza.blogspot.com/2020/01/alphabet-letters-recognition-with.html
 - https://vasanza.blogspot.com/2020/01/eeg-signal-classification-with-machine.html
 # Related Work (Regression)
-- **Paper 3:**[Behavioral Signal Processing with Machine Learning Based on FPGA
+- **Paper 3:** [Behavioral Signal Processing with Machine Learning Based on FPGA
 ](https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17).
-- **Paper 4:**[FPGA Based Meteorological Monitoring Station](https://ieeexplore.ieee.org/document/9530151).
+- **Paper 4:** [FPGA Based Meteorological Monitoring Station](https://ieeexplore.ieee.org/document/9530151).
 - https://vasanza.blogspot.com/2020/01/epileptic-seizure-prediction-with_72.html
 
 # Datasets
-- https://dx.doi.org/10.21227/mdfs-ya42
-- https://dx.doi.org/10.21227/0j42-qd38
-- https://dx.doi.org/10.21227/x6jw-m015
-- https://dx.doi.org/10.21227/8cty-6069
-- https://dx.doi.org/10.21227/bhpj-mz94
+- [WEATHER MONITORING STATION FOR FARMS AND AGRICULTURE
+](https://dx.doi.org/10.21227/mdfs-ya42).
+- [SSVEP-EEG DATA COLLECTION USING EMOTIV EPOC
+](https://dx.doi.org/10.21227/0j42-qd38).
+- [DATA SERVER ENERGY CONSUMPTION DTASET
+](https://dx.doi.org/10.21227/x6jw-m015).
+- [TEMPERATURE AND SPEED CONTROL LAB (TSC-LAB)
+](https://dx.doi.org/10.21227/8cty-6069).
+- [ELECTROMYOGRAPHY (EMG) OF THE EXTRAOCULAR MUSCLES (EOM)](https://dx.doi.org/10.21227/bhpj-mz94).
 
 # CLONE
 - git status
