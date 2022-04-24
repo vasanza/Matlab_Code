@@ -53,18 +53,18 @@ These are functions developed in matlab and used in the following applications:
 - [Víctor Asanza](https://vasanza.blogspot.com/p/about-me.html)
 
 # Keynote
-## CLONE
+## Clone
 - git status
 - git clone https://github.com/vasanza/Matlab_Code.git
 
-## SWITCHED TO BRANCH
+## Switched to Branch
 - git branch -a
 - git checkout NameBranch
 
 ## New Branch
 - git checkout -b NameBranch
 
-## PUSH
+## Push
 - git pull origin NameBranch
 - git status
 - git add .
