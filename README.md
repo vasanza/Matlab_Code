@@ -7,6 +7,7 @@ These are functions developed in matlab and used in the following applications:
 - [Classification Application 3](https://github.com/vasanza/EOG): Electrooculography (EOG).
 - [Regression Application 1](https://github.com/vasanza/EnergyConsumptionPrediction): Energy Consumption Prediction.
 - [Regression Application 2](https://github.com/vasanza/Weather-Monitoring-Station), [paper](https://ieeexplore.ieee.org/document/9530151): FPGA Based Meteorological Monitoring Station.
+
 We hope that all the functions in this repository will be useful to you in the programming of your Matlab projects.
 
 ## When using this resource, please cite the original publication:
