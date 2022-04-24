@@ -35,6 +35,8 @@ These are functions developed in matlab and used in the following applications:
 - https://vasanza.blogspot.com/2020/01/epileptic-seizure-prediction-with_72.html
 
 # Datasets
+- [TRILATERATION BASED ON RSSI VALUES IN TRANSMITTERS AND RECEIVERS](https://ieee-dataport.org/documents/trilateration-based-rssi-values-transmitters-and-receivers).
+- [2 PHASE ENERGY METER 100A (2PEM-100A)](https://ieee-dataport.org/competitions/2-phase-energy-meter-100a-2pem-100a).
 - [WEATHER MONITORING STATION FOR FARMS AND AGRICULTURE
 ](https://dx.doi.org/10.21227/mdfs-ya42).
 - [SSVEP-EEG DATA COLLECTION USING EMOTIV EPOC
