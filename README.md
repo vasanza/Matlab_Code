@@ -1,7 +1,7 @@
 [![View Functionality Matlab code on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://la.mathworks.com/matlabcentral/fileexchange/102774-functionality-matlab-code)
 # ⭐⭐⭐⭐⭐ MATLAB Code
 - These are functions developed in matlab and used in the following applications:
--- [Application 1](https://github.com/vasanza/WiFi_RSSI_Localization): WiFi RSSI Localization.
+- [Application 1](https://github.com/vasanza/WiFi_RSSI_Localization): WiFi RSSI Localization.
 
 - ➡️ #Matlab #mat #ClassificationLearner #Classification #RegressionLearner #Regression
 ## When using this resource, please cite the original publication:
