@@ -6,7 +6,7 @@ These are functions developed in matlab and used in the following applications:
 - [Classification Application 2](https://github.com/vasanza/BCI_Motor_Imagery_Task_OpenBCI/tree/main/MatlabCode): Brain-Computer Interfaces (BCI) using OpenBCI.
 - [Classification Application 3](https://github.com/vasanza/EOG): Electrooculography (EOG).
 - [Regression Application 1](https://github.com/vasanza/EnergyConsumptionPrediction): Energy Consumption Prediction.
-- [Regression Application 2](https://github.com/vasanza/Weather-Monitoring-Station): Weather-Monitoring-Station
+- [Regression Application 2](https://github.com/vasanza/Weather-Monitoring-Station), [paper](https://ieeexplore.ieee.org/document/9530151): FPGA Based Meteorological Monitoring Station.
 ## When using this resource, please cite the original publication:
 - V. Asanza, R. E. Pico, D. Torres, S. Santillan and J. Cadena, "FPGA Based Meteorological Monitoring Station," 2021 IEEE Sensors Applications Symposium (SAS), 2021, pp. 1-6, doi: 10.1109/SAS51076.2021.9530151.
 
@@ -31,6 +31,7 @@ These are functions developed in matlab and used in the following applications:
 # Related Work (Regression)
 - **Paper 3:**[Behavioral Signal Processing with Machine Learning Based on FPGA
 ](https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17).
+- **Paper 4:**[FPGA Based Meteorological Monitoring Station](https://ieeexplore.ieee.org/document/9530151).
 - https://vasanza.blogspot.com/2020/01/epileptic-seizure-prediction-with_72.html
 
 # Datasets
