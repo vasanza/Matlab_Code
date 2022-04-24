@@ -1,12 +1,12 @@
 [![View Functionality Matlab code on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://la.mathworks.com/matlabcentral/fileexchange/102774-functionality-matlab-code)
 # ⭐⭐⭐⭐⭐ MATLAB Code
-- These are functions developed in matlab and used in the following applications:
+## ➡️ #Matlab #mat #ClassificationLearner #Classification #RegressionLearner #Regression
+These are functions developed in matlab and used in the following applications:
 - [Classification Application 1](https://github.com/vasanza/WiFi_RSSI_Localization): WiFi RSSI Localization.
 - [Classification Application 2](https://github.com/vasanza/BCI_Motor_Imagery_Task_OpenBCI/tree/main/MatlabCode): Brain-Computer Interfaces (BCI) using OpenBCI.
 - [Classification Application 3](https://github.com/vasanza/EOG): Electrooculography (EOG).
 - [Regression Application 1](https://github.com/vasanza/EnergyConsumptionPrediction): Energy Consumption Prediction.
 - [Regression Application 2](https://github.com/vasanza/Weather-Monitoring-Station): Weather-Monitoring-Station
-- ➡️ #Matlab #mat #ClassificationLearner #Classification #RegressionLearner #Regression
 ## When using this resource, please cite the original publication:
 - V. Asanza, R. E. Pico, D. Torres, S. Santillan and J. Cadena, "FPGA Based Meteorological Monitoring Station," 2021 IEEE Sensors Applications Symposium (SAS), 2021, pp. 1-6, doi: 10.1109/SAS51076.2021.9530151.
 
