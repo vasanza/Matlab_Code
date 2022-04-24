@@ -22,12 +22,15 @@ These are functions developed in matlab and used in the following applications:
 - Use in main code: addpath(genpath('./src'))%functions folders
 
 # Related Work (Classification)
-- https://ieeexplore.ieee.org/document/9096752
-- https://ieeexplore.ieee.org/abstract/document/8580270
+- **Paper 1:** [Implementation of a Classification System of EEG Signals Based on FPGA
+](https://ieeexplore.ieee.org/document/9096752).
+- **Paper 2:**[EMG Signal Processing with Clustering Algorithms for motor gesture Tasks
+](https://ieeexplore.ieee.org/abstract/document/8580270).
 - https://vasanza.blogspot.com/2020/01/alphabet-letters-recognition-with.html
 - https://vasanza.blogspot.com/2020/01/eeg-signal-classification-with-machine.html
 # Related Work (Regression)
-- https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17
+- **Paper 3:**[Behavioral Signal Processing with Machine Learning Based on FPGA
+](https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17).
 - https://vasanza.blogspot.com/2020/01/epileptic-seizure-prediction-with_72.html
 
 # Datasets
