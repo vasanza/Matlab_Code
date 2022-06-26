@@ -59,13 +59,15 @@ grid on
 %Here is the code to display in ThingSpeak the last value received from Firebase
 % TODO - Replace the [] with channel ID to read data from:
 writeChannelID = [1244142];
+% TODO - Replace the [] with the Field ID to read data from:
+Field_Firebase = [8];
 % Channel Write API Key 
 % If your channel is private, then enter the read API
 % Key between the '' below: 
 writeAPIKey = 'S1EIDYYP6ZRR02FI';
 %Last Time Stamp
-tStamp = datetime(t(length(t)), 'inputformat','yyyy-MM-dd HH:mm:ss', 'Format','HH:mm:ss');
+LastStamp = datetime(t(length(t)), 'inputformat','yyyy-MM-dd HH:mm:ss', 'Format','HH:mm:ss');
 %Last Temperature Value
-muestras=x(length(x));
+LastValue=y(length(y));
 % Plot in fild
-thingSpeakWrite(writeChannelID,'Fields',8,'values', muestras,'TimeStamp',tStamp,'WriteKey',writeAPIKey)
+thingSpeakWrite(writeChannelID,'Fields',Field_Firebase,'values', LastValue,'TimeStamp',LastStamp,'WriteKey',writeAPIKey)
