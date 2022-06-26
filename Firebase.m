@@ -1,7 +1,8 @@
-%Example for downloading data from Firebase and processing them
+% Example for downloading data from Firebase and processing them
 % by: Christopher Vaccaro (cvaccaro@espol.edu.ec)
 % Last edition: 6/26/2022
 % More examples: https://github.com/vasanza/Matlab_Code
+% Read more: https://vasanza.blogspot.com/
 % This code downloads the data from firebase, the data is sent from the open source hardware TSC-LAb, as described in the following link:
 % https://tsc-lab.blogspot.com/2022/05/practice-41-firebase.html
 
