@@ -71,3 +71,6 @@ LastStamp = datetime(t(length(t)), 'inputformat','yyyy-MM-dd HH:mm:ss', 'Format'
 LastValue=y(length(y));
 % Plot in fild
 thingSpeakWrite(writeChannelID,'Fields',Field_Firebase,'values', LastValue,'TimeStamp',LastStamp,'WriteKey',writeAPIKey)
+%In the last line when trying to post the last data in thingspeak, depending on the version may give error
+%URL is incorrectly formed, or the requested feature is not supported in this version of ThingSpeak.
+
