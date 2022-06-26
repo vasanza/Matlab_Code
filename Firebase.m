@@ -54,3 +54,18 @@ title('Temperature on TSC-LAB');
 xlabel('Time');ylabel('temperature (°C)');
 legend('temperature');
 grid on
+
+%%
+%Here is the code to display in ThingSpeak the last value received from Firebase
+% TODO - Replace the [] with channel ID to read data from:
+writeChannelID = [1244142];
+% Channel Write API Key 
+% If your channel is private, then enter the read API
+% Key between the '' below: 
+writeAPIKey = 'S1EIDYYP6ZRR02FI';
+%Last Time Stamp
+tStamp = datetime(t(length(t)), 'inputformat','yyyy-MM-dd HH:mm:ss', 'Format','HH:mm:ss');
+%Last Temperature Value
+muestras=x(length(x));
+% Plot in fild
+thingSpeakWrite(writeChannelID,'Fields',8,'values', muestras,'TimeStamp',tStamp,'WriteKey',writeAPIKey)
