@@ -1,10 +1,11 @@
-% Example for downloading data from Firebase and processing them
+% Example for downloading data from Firebase and processing them, this code can be run in Matlab or in ThingSpeak.
+% The data is sent from the open source hardware TSC-LAb, as described in the following link:
+% https://tsc-lab.blogspot.com/2022/05/practice-41-firebase.html
 % by: Christopher Vaccaro (cvaccaro@espol.edu.ec)
 % Last edition: 6/26/2022
 % More examples: https://github.com/vasanza/Matlab_Code
 % Read more: https://vasanza.blogspot.com/
-% This code downloads the data from firebase, the data is sent from the open source hardware TSC-LAb, as described in the following link:
-% https://tsc-lab.blogspot.com/2022/05/practice-41-firebase.html
+
 
 %Read data from Realtime Firebase
 data = webread("https://tsc-lab-default-rtdb.firebaseio.com/TSC-Lab.json");
