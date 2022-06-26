@@ -1,12 +1,13 @@
 %Example for downloading data from Firebase and processing them
 % by: Christopher Vaccaro (cvaccaro@espol.edu.ec)
+% Edited: vasanza (6/26/2022)
 % More examples: https://github.com/vasanza/Matlab_Code
 % Read more: https://tsc-lab.blogspot.com/
 
 %Read data from Realtime Firebase
 data = webread("https://tsc-lab-default-rtdb.firebaseio.com/TSC-Lab.json");
 values = data.Temperatura.Sensor1;
-nLastSamples=100;%ThingSpeak only allows viewing the last 8k samples.
+nLastSamples=1000;%ThingSpeak only allows viewing the last 8k samples.
 
 x=[];%We initialize the vector "x" as an empty array
 y=[];%We initialize the vector "y" as an empty array
@@ -39,16 +40,25 @@ for a = 1:length(dates)
     end
 end
 
+% Set the time variable in the format 'HH:mm:ss'
+Stamp = datetime(t, 'inputformat','yyyy-MM-dd HH:mm:ss', 'Format','HH:mm:ss');
+% We separate the last n records (ThingSpeak only allows displaying the last 8k records).
+t_LastStamp = Stamp(length(Stamp)-nLastSamples+1:length(Stamp));
+x_LastSamples = x(length(x)-nLastSamples+1:length(x));
+y_LastSamples = y(length(y)-nLastSamples+1:length(y));
+
+%Plot of the first variable in subplot, with title, legends and names on the axes.
 subplot(2,1,1)
-plot(datetime(t(length(t)-nLastSamples:length(t)), 'inputformat','yyyy-MM-dd HH:mm:ss', 'Format','HH:mm:ss'),x(length(x)-nLastSamples:length(x)),'-*');
+plot(t_LastStamp,x_LastSamples,'-*');
 %plot(datetime(t, 'inputformat','yyyy-MM-dd HH:mm:ss', 'Format','HH:mm:ss'),x,'-*');
 title('PWM on TSC-LAB');
 xlabel('Time');ylabel('pwm (0 - 255)');
 legend('pwm');
 grid on
 
+%Plot of the second variable in subplot, with title, legends and names on the axes.
 subplot(2,1,2)
-plot(datetime(t(length(t)-nLastSamples:length(t)), 'inputformat','yyyy-MM-dd HH:mm:ss', 'Format','HH:mm:ss'),y(length(y)-nLastSamples:length(y)),'-*');
+plot(t_LastStamp,y_LastSamples,'-*');
 %plot(datetime(t, 'inputformat','yyyy-MM-dd HH:mm:ss', 'Format','HH:mm:ss'),y,'-*');
 title('Temperature on TSC-LAB');
 xlabel('Time');ylabel('temperature (°C)');
@@ -66,11 +76,10 @@ Field_Firebase = [8];
 % Key between the '' below: 
 writeAPIKey = 'S1EIDYYP6ZRR02FI';
 %Last Time Stamp
-LastStamp = datetime(t(length(t)), 'inputformat','yyyy-MM-dd HH:mm:ss', 'Format','HH:mm:ss');
+LastStamp = t_LastStamp(length(t_LastStamp));
 %Last Temperature Value
-LastValue=y(length(y));
-% Plot in fild
-thingSpeakWrite(writeChannelID,'Fields',Field_Firebase,'values', LastValue,'TimeStamp',LastStamp,'WriteKey',writeAPIKey)
-%In the last line when trying to post the last data in thingspeak, depending on the version may give error
-%URL is incorrectly formed, or the requested feature is not supported in this version of ThingSpeak.
+LastValue=y_LastSamples(length(y_LastSamples));
 
+% Plot in field
+%thingSpeakWrite(writeChannelID,'Field',Field_Firebase,'value', LastValue,'TimeStamp',LastStamp,'WriteKey',writeAPIKey)
+thingSpeakWrite(writeChannelID,'Field',Field_Firebase,'value', LastValue,'WriteKey',writeAPIKey)
