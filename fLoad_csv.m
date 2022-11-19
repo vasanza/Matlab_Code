@@ -22,9 +22,9 @@
 % Read more: https://vasanza.blogspot.com/
 
 function [Data] = fLoad_csv(path,str_file_name)
-    %version 2
+    %Version 2
     Data=importdata(char(strcat(path,str_file_name)));
-    %version 1
+    %Version 1
     %path1=fullfile(path,strcat(str_file_name,'.csv'));
     %data=readtable(path1);%Select CSV file
     %Data=table2array(data);% Array Double
