@@ -17,9 +17,10 @@ We hope that all the functions in this repository will be useful to you in the p
 # Classification Learner
 ![Classification](https://user-images.githubusercontent.com/12642226/126782394-ecb99406-0aa0-456a-b587-7d0cdfb307e3.PNG)
 ## Related Work (Classification)
-- **Paper 1:** [Implementation of a Classification System of EEG Signals Based on FPGA
+- **Paper 1:** [Trilateration-based Indoor Location using Supervised Learning Algorithms](https://ieeexplore.ieee.org/document/9920073).
+- **Paper 2:** [Implementation of a Classification System of EEG Signals Based on FPGA
 ](https://ieeexplore.ieee.org/document/9096752).
-- **Paper 2:** [EMG Signal Processing with Clustering Algorithms for motor gesture Tasks
+- **Paper 3:** [EMG Signal Processing with Clustering Algorithms for motor gesture Tasks
 ](https://ieeexplore.ieee.org/abstract/document/8580270).
 - https://vasanza.blogspot.com/2020/01/alphabet-letters-recognition-with.html
 - https://vasanza.blogspot.com/2020/01/eeg-signal-classification-with-machine.html
