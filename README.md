@@ -5,12 +5,13 @@ These are functions developed in matlab and used in the following applications:
 - [Classification Application 1](https://github.com/vasanza/WiFi_RSSI_Localization): WiFi RSSI Localization.
 - [Classification Application 2](https://github.com/vasanza/BCI_Motor_Imagery_Task_OpenBCI/tree/main/MatlabCode): Brain-Computer Interfaces (BCI) using OpenBCI.
 - [Classification Application 3](https://github.com/vasanza/EOG): Electrooculography (EOG).
-- [Regression Application 1](https://github.com/vasanza/EnergyConsumptionPrediction): Energy Consumption Prediction.
+- [Regression Application 1](https://github.com/vasanza/EnergyConsumptionPrediction): Energy Consumption Prediction, [paper](https://doi.org/10.1016/j.procs.2022.07.035): Learning-based Energy Consumption Prediction.
 - [Regression Application 2](https://github.com/vasanza/Weather-Monitoring-Station), [paper](https://ieeexplore.ieee.org/document/9530151): FPGA Based Meteorological Monitoring Station.
 
 We hope that all the functions in this repository will be useful to you in the programming of your Matlab projects.
 
 ## When using this resource, please cite the original publication:
+- Estrada, R., Asanza, V., Torres, D., Bazurto, A., & Valeriano, I. (2022). Learning-based Energy Consumption Prediction. Procedia Computer Science, 203, 272-279, doi: https://doi.org/10.1016/j.procs.2022.07.035
 - V. Asanza, R. E. Pico, D. Torres, S. Santillan and J. Cadena, "FPGA Based Meteorological Monitoring Station," 2021 IEEE Sensors Applications Symposium (SAS), 2021, pp. 1-6, doi: 10.1109/SAS51076.2021.9530151.
 
 # Classification Learner
@@ -26,9 +27,10 @@ We hope that all the functions in this repository will be useful to you in the p
 # Regression Learner
 ![Prediction](https://user-images.githubusercontent.com/12642226/126782409-61d89edc-8d65-4d6c-bec0-19a6aaef8539.PNG)
 ## Related Work (Regression)
-- **Paper 1:** [Behavioral Signal Processing with Machine Learning Based on FPGA
+- **Paper 1:** [Learning-based Energy Consumption Prediction](https://doi.org/10.1016/j.procs.2022.07.035).
+- **Paper 2:** [Behavioral Signal Processing with Machine Learning Based on FPGA
 ](https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17).
-- **Paper 2:** [FPGA Based Meteorological Monitoring Station](https://ieeexplore.ieee.org/document/9530151).
+- **Paper 3:** [FPGA Based Meteorological Monitoring Station](https://ieeexplore.ieee.org/document/9530151).
 - https://vasanza.blogspot.com/2020/01/epileptic-seizure-prediction-with_72.html
 
 # Datasets
