@@ -2,7 +2,7 @@
 # ⭐⭐⭐⭐⭐ MATLAB Code
 ## ➡️ #Matlab #mat #ClassificationLearner #Classification #RegressionLearner #Regression
 These are functions developed in matlab and used in the following applications:
-- [Classification Application 1](https://github.com/vasanza/WiFi_RSSI_Localization): WiFi RSSI Localization.
+- [Classification Application 1](https://github.com/vasanza/WiFi_RSSI_Localization): WiFi RSSI Localization, [paper]([https://ieeexplore.ieee.org/document/9530151](https://ieeexplore.ieee.org/document/9920073)): Trilateration-based Indoor Location using Supervised Learning Algorithms.
 - [Classification Application 2](https://github.com/vasanza/BCI_Motor_Imagery_Task_OpenBCI/tree/main/MatlabCode): Brain-Computer Interfaces (BCI) using OpenBCI.
 - [Classification Application 3](https://github.com/vasanza/EOG): Electrooculography (EOG).
 - [Regression Application 1](https://github.com/vasanza/EnergyConsumptionPrediction): Energy Consumption Prediction, [paper](https://doi.org/10.1016/j.procs.2022.07.035): Learning-based Energy Consumption Prediction.
