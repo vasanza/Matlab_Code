@@ -6,6 +6,7 @@
 % output (Precision o Precision): Precision (%) = TP / (FP + TP)
 % output (Recall o Especificida): Recall (%) = TP / (TP + FN)
 % output (F1 Score): F1 Score (%) = (2 × Precision × Recall) / (Precision + Recall)
+% Metrics based on the publication: https://doi.org/10.1016/j.ifacol.2021.10.285
 % Example:
 %   [Accuracy, Precision, Recall,F1Score] = Classification_Quality_Metrics(real,prediction)
 % More examples: https://github.com/vasanza/Matlab_Code
