@@ -7,10 +7,10 @@
 % Example: 
 %      TargetsClass=[1;1;1;1;0;0;0;0];
 %      OutputsClass=[1;1;1;1;0;0;0;1];
-%   [tpr,fpr,thresholds]=ROC_AUC2(TargetsClass,OutputsClass)
+%   [tpr,fpr,thresholds]=fROC(TargetsClass,OutputsClass)
 % More examples: https://github.com/vasanza/Matlab_Code
 % Read more: https://vasanza.blogspot.com/
-function [tpr,fpr,thresholds]=ROC_AUC2(TargetsClass,OutputsClass)
+function [tpr,fpr,thresholds]=fROC(TargetsClass,OutputsClass)
     Targets=[TargetsClass';not(TargetsClass)'];%El valor real (En una sola fila)
     Outputs=[OutputsClass';not(OutputsClass)'];%Prediccion del modelo (En una sola fila)
     [tpr,fpr,thresholds] = roc(Targets,Outputs);
